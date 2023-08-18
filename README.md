@@ -1,2 +1,2 @@
-# gitbook
+# GitBook Notes
 GitBook Notes Repository
