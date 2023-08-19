@@ -8,16 +8,17 @@ description: >-
 
 Ruby
 
-```
-/usr/bin/ruby -e 'require "irb" ; IRB.start(__FILE__)'
+```bash
+sudo -u $USER /usr/bin/ruby -e 'require "irb" ; IRB.start(__FILE__)'
 ```
 
 Python
 
-```
-/usr/bin/python -c 'import os;os.system("whoami")'
+```bash
+sudo -u $USER /usr/bin/python -c 'import os;os.system("whoami")'
 ```
 
+```bash
+sudo -u $USER /usr/bin/python -c 'from subprocess import call;call("[whoami]")'
 ```
-/usr/bin/python -c 'from subprocess import call;call("[whoami]")'
-```
+
